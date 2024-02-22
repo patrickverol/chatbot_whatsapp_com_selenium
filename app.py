@@ -106,7 +106,7 @@ class zapbot:
 if __name__ == "__main__":
     bot = zapbot()  # Inicia o objeto zapbot
     bot.abre_conversa("Patrick")  # Passando o numero ou o nome do contato
-    bot.envia_msg("Olá, sou o bot whatsapp! Para receber ajuda digite: /help")
+    bot.envia_msg("Olá, sou o bot whatsapp! Para saber minhas funcionalidades digite: /help")
     imagem = os.path.join(
         bot.dir_path, "data", f"{str(random.randint(1, 4))}.jpg"
     )  # Passando o caminho da imagem que será enviada

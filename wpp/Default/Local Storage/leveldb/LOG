@@ -1,3 +1,5 @@
-2024/02/22-02:42:41.425 3560 Reusing MANIFEST C:\Users\PICHAU\Documents\01_Projetos\Chatbot_whatsapp_com_selenium\wpp\Default\Local Storage\leveldb/MANIFEST-000001
-2024/02/22-02:42:41.426 3560 Recovering log #3
-2024/02/22-02:42:41.431 3560 Reusing old log C:\Users\PICHAU\Documents\01_Projetos\Chatbot_whatsapp_com_selenium\wpp\Default\Local Storage\leveldb/000003.log 
+2024/02/22-14:12:41.505 17d0 Reusing MANIFEST C:\Users\PICHAU\Documents\01_Projetos\Chatbot_whatsapp_com_selenium\wpp\Default\Local Storage\leveldb/MANIFEST-000001
+2024/02/22-14:12:41.508 17d0 Recovering log #3
+2024/02/22-14:12:41.508 17d0 Level-0 table #3: started
+2024/02/22-14:12:41.513 17d0 Level-0 table #3: 20652 bytes OK
+2024/02/22-14:12:41.519 17d0 Delete type=0 #3
