@@ -29,9 +29,9 @@ Neste projeto, utilizo a biblioteca Selenium do Python para abrir o Whatsapp Web
   2. Insira o número ou nome da pessoa a qual deseja enviar a mensagem:
 
 ```bash
-  Abra o arquivo app.py e na linha 109 do código:
-      -> bot.abre_conversa("Patrick")  # Passando o numero ou o nome do contato
-  Altere o nome Patrick para o nome ou número da pessoa que deseja inicar a conversa.
+  # Abra o arquivo app.py e na linha 109 do código:
+  #    -> bot.abre_conversa("Patrick")  # Passando o numero ou o nome do contato
+  # Altere o nome Patrick para o nome ou número da pessoa que deseja inicar a conversa.
 ```
   3. Configure a versão correta do Python com pyenv:
 
