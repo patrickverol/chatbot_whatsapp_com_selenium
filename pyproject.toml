@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "chatbot-whatsapp-com-selenium"
+version = "0.1.0"
+description = "Desenvolvimento de um chatbot para o whatsapp web utilizando a bibliateca Selenium do Python"
+authors = ["patrickverol <patrickverol@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.18.1"
+webdriver-manager = "^4.0.1"
+taskipy = "^1.12.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.taskipy.tasks]
+format = "isort . && black ."
+kill = "kill -9 $(lsof -t -i :8000)"
+test = "poetry run pytest -v"
+run = "python3 app/main.py"

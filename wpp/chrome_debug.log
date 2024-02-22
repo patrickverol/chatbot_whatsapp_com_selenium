@@ -1,0 +1,6 @@
+[12416:13664:0222/022048.540:WARNING:chrome_main_delegate.cc(668)] This is Chrome version 121.0.6167.185 (not a warning)
+[12416:13664:0222/022048.577:INFO:policy_logger.cc(144)] :components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc(168) Starting CBCM Controller Initialization
+[12416:13664:0222/022048.577:INFO:policy_logger.cc(144)] :components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc(196) No machine level policy manager exists.
+[12416:13664:0222/022049.348:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.", source:  (0)
+[12416:13664:0222/022118.626:INFO:CONSOLE(5)] "The ScriptProcessorNode is deprecated. Use AudioWorkletNode instead. (https://bit.ly/audio-worklet)", source: https://web.whatsapp.com/main.9573ecec4fb269a42dda.js (5)
+[12416:13664:0222/022118.650:WARNING:capture_device_ranking.h(255)] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
