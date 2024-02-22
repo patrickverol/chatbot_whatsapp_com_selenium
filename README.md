@@ -2,22 +2,20 @@
 
 <br>
   <h1 align="center">
-    Buscar classificação de ações da Bolsa
+    Chatbot para Whatsapp
   </h1>
 <br/>
 
 <div align="center">
     <a href = "https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" target="_blank"></a> 
-    <a href = "https://pandas.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" target="_blank"></a>
     <a href = "https://python-poetry.org/docs/"><img src="https://img.shields.io/badge/Poetry-%233B82F6.svg?style=for-the-badge&logo=poetry&logoColor=0B3D8D" target="_blank"></a>
     <a href = "https://www.selenium.dev/pt-br/documentation/"><img src="https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white" target="_blank"></a>
-    <a href = "https://www.microsoft.com/pt-br/microsoft-365/excel"><img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" target="_blank"></a>
     <a href = "https://learn.microsoft.com/pt-br/powershell/scripting/overview?view=powershell-7.4"><img src="https://img.shields.io/badge/Powershell-2CA5E0?style=for-the-badge&logo=powershell&logoColor=white" target="_blank"></a>
 </div> 
 
 ## Sobre o projeto
 
-Este projeto tem o objetivo de buscar a classificação de todas as ações da bolsa de valores do Brasil, através de um web scrapping realizado no site StatusInvest. Desta forma, será possível analisar melhor o valuation das empresas listadas na bolsa, avaliando sua performance com base nos principais indicadores de cada setor e realizando uma análise horizontal comparando-as com seus pares, uma vez que setores diferentes possuem interpretações diferentes dos indicadores.
+Neste projeto, utilizo a biblioteca Selenium do Python para abrir o Whatsapp Web e criar um Chatbot. Através de um loop "while" mantenho o selenium capturando a última mensagem enviada pelo usuário, o bot então interage com o usuário através de comandos pré definidos em "/mais", tais comandos acionam funções do python criadas para executar uma ação (podem ser criadas mais funções posteriormente para aumentar o número de funcionalidades do bot). Quando o usuário desejar encerrar a conversa, ele pode digitar "/quit".
 
 
 ## Instalação e configuração
@@ -57,7 +55,7 @@ Este projeto tem o objetivo de buscar a classificação de todas as ações da b
 ```bash
   task run
 ```
-  7. Verifique na pasta app se o arquivo foi gerado corretamente.
+  7. Acompanhe o funcionamento do Bot através do navegador.
 
 ## Contato
 
